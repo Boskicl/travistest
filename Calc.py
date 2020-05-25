@@ -7,5 +7,5 @@ class Calc:
     def add(self):
         return self.num1 + self.num2
 
-    if __name__ == '__main__':
-        instance = Calc(1,1)
+if __name__ == '__main__':
+    instance = Calc(1,1)
