@@ -3,5 +3,4 @@ python:
  - 3.6
 script:
  - tests/testc.py
-before_install:
-  - chmod +x testc.py
+
