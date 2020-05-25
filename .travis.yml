@@ -2,5 +2,5 @@ language: python
 python:
  - 3.6
 script:
- - python3 testc.py
+ - python3 tests/testc.py
 

@@ -1,5 +1,9 @@
 from Calc import Calc
 
-x,y = 1,2
-instance = Calc(x,y)
-assert instance.add() == x + y, "Add method"
+def test_add():
+    x,y = 1,2
+    instance = Calc(x,y)
+    if instance.add() == x+y:
+        print('True')
+
+test_add()
