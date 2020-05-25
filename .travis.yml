@@ -4,4 +4,4 @@ python:
 script:
  - tests/testc.py
 before_install:
-  - chmod +x tests/testc.py
+  - chmod +x testc.py
